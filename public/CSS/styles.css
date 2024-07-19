@@ -1,7 +1,4 @@
 .container {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: bold;
     display: flex;
     margin: auto;
     aspect-ratio: 16/9;
