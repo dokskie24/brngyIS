@@ -1,30 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
 .container {
     display: flex;
-    margin: auto;
-    aspect-ratio: 16/9;
     align-items: center;
-    justify-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    gap: 1em;
-  }
-  
-  .input-content {
-    display: grid;
-    align-content: center;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    padding-inline: 1em;
-  }
-  .card {
+    height: 100%;
+}
+
+.card {
     width: 650px;
     height: 500px;
     border-radius: 50px;
     background: #e0e0e0;
-    box-shadow: 20px 20px 60px #bebebe,
-                  -20px -20px 60px #ffffff;
-   }
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-  
+.form {
+    width: 400px;
+}
+
+.input-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    padding-inline: 1em;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+}
+
+.btn {
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
