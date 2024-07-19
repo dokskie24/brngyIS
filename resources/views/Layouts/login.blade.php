@@ -9,8 +9,18 @@
     <title>login</title>
 </head>
 <body>
-    <h1>helooooo</h1>
-    <h1>world</h1>
+<div>
+    <div class="container">
+            <div class="card">
+                <form action="" class="container">
+                    <input type="text" placeholder="Username">
+                    <input type="password" name="" id="">
+                    <input type="button" value="Login">
+                </form>
+            </div>
+    </div>
 
+
+</div>
 </body>
 </html>
